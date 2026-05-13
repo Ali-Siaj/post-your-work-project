@@ -16,3 +16,5 @@ It helps analyze travel patterns such as popular times, stations, and trip durat
 
 ## Goal
 Practice using Python for data analysis and Git for version control.
+
+This project was completed as part of a Git learning exercise.
