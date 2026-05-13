@@ -26,11 +26,11 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input(
+        city_name = input(
             "Would you like to see data for Chicago, New York City, or Washington?\n"
         ).lower()
 
-        if city in CITY_DATA:
+        if city_name in CITY_DATA:
             break
         else:
             print("Invalid city. Please try again.")
@@ -58,7 +58,7 @@ def get_filters():
         else:
             print("Invalid day. Please try again.")
 
-    return city, month, day
+    return city_name, month, day
 
 
 def load_data(city, month, day):
@@ -230,3 +230,4 @@ def main():
 if __name__ == "__main__":
     main()
 # This script analyzes bikeshare data using Python
+# Refactored version of bikeshare analysis script
